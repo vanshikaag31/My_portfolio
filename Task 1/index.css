@@ -1,1 +1,29 @@
+html {
+  font-size: 22px;
+}
+body {
+  background-color: #8a5083;
+  color: rgb(0, 0, 0);
+}
 
+a {
+  color: aliceblue;
+}
+a:visited {
+  color: purple;
+}
+
+a:hover,
+a:active {
+  color: #eee;
+}
+table,
+tr,
+th,
+td,
+caption {
+  border: 1px solid #eee;
+  font-family: "Courier New", Courier, monospace;
+  border-collapse: collapse;
+  padding: 0.5rem;
+}
